@@ -1,0 +1,78 @@
+.img {
+  width: 15%;
+}
+.img2{
+  width: 10%;
+}
+
+
+#titulo {
+  border-radius: 1rem;
+  background-color: rgb(50, 99, 205);
+  color: black;
+  text-size-adjust: 50%;
+  text-align: center;
+
+}
+
+.btn {
+  /*boton FACTURAR*/
+  width: 10rem;
+  height: 5rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  background-color: magenta;
+  color: white;
+}
+.btn2 {
+  /*boton regresar*/
+  width: 7rem;
+  height: 3rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  background-color: pink;
+
+}
+
+.fondo {
+  background: rgb(255, 255, 255);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blanco {
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+
+td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #e4ffde;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+tr:last-of-type{
+  background-color: rgb(255, 255, 29);
+}
+tr:first-of-type{
+  background-color: rgb(255, 233, 106);
+}
+tr:nth-child(5){
+  border-bottom: 5px solid black;
+}
